@@ -1,6 +1,7 @@
+using CarsRental.Interfaces;
 namespace CarsRental.Services
 {
-    class BrazilTaxService
+    class BrazilTaxService : ITaxService
     {
         public double Tax(double amount)
         {
